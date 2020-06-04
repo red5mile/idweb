@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://developer.cdn.mozilla.net/static/build/styles/samples.37902ba3b7fe.css"
+          rel="stylesheet" type="text/css">
+          
+    <style type="text/css">
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Your example?</h1>
+          
+          
+    <script type="text/javascript">
+      document.querySelector('h1').onclick = function() {
+        document.querySelector('h1').textContent = 'Your example?';
+      };
+    </script>
+          
+  </body>
+</html>
